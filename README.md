@@ -5,7 +5,7 @@ The classname utility function
 ```js
 import cs from 'cs'
 
-cs(["up", "   left", ["container"]]) // Outputs: "up left container"
+cs("button", ["up", "   left", ["container"]]) // Outputs: "button up left container"
 ```
 
 Using the type:

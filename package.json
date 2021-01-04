@@ -1,0 +1,13 @@
+{
+  "name": "cs",
+  "version": "1.0.5",
+  "description": "CSS class name concatenation",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Walter Bormans",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}

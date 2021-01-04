@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        // "outFile": "../../built/local/tsc.js",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "lib": ["ES2019"],
+        "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
